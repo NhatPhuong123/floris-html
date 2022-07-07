@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
         " type="text/css" />
 
 </head>
@@ -63,10 +63,10 @@
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <div class="breadcrumb_text">
-                                <h2>Shopping Cart</h2>
+                                <h2>Checkout</h2>
                                 <div class="breadcrumb_links">
                                     <a href="./home.html">Home</a>
-                                    <span>Shopping Cart</span>
+                                    <span>Checkout</span>
                                 </div>
                             </div>
                         </div>
@@ -74,146 +74,124 @@
                 </div>
             </section>
 
-            <!-- Shopping Cart -->
-            <section class="cart spad">
+            <!-- Check out -->
+            <section class="checkout spad">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="cart_table">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th>Product</th>
-                                            <th>Quantity</th>
-                                            <th>Total</th>
-                                            <th></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="cart_item">
-                                                <div class="cart_item_pic">
-                                                    <img src="./public/images/cart-1.png" alt="cart_1">
-                                                </div>
-                                                <div class="cart_item_text">
-                                                    <h4>Cactus Gym</h4>
-                                                    <span>$21.00</span>
-                                                </div>
-                                            </td>
-                                            <td class="cart_quantity">
-                                                <div class="quantity">
-                                                    <div class="pro-qty">
-                                                        <span class="dec qtybtn">-</span>
-                                                        <input type="text" value="1">
-                                                        <span class="inc qtybtn">+</span>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="cart_price">$21.00</td>
-                                            <td class="cart_close"><i class="fa fa-times-circle"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="cart_item">
-                                                <div class="cart_item_pic">
-                                                    <img src="./public/images/cart-2.png" alt="cart-2">
-                                                </div>
-                                                <div class="cart_item_text">
-                                                    <h4>Fly Me To The Moon</h4>
-                                                    <span>$21.00</span>
-                                                </div>
-                                            </td>
-                                            <td class="cart_quantity">
-                                                <div class="quantity">
-                                                    <div class="pro-qty">
-                                                        <span class="dec qtybtn">-</span>
-                                                        <input type="text" value="1">
-                                                        <span class="inc qtybtn">+</span>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="cart_price">$21.00</td>
-                                            <td class="cart_close"><i class="fa fa-times-circle"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="cart_item">
-                                                <div class="cart_item_pic">
-                                                    <img src="./public/images/cart-3.png" alt="cart-3">
-                                                </div>
-                                                <div class="cart_item_text">
-                                                    <h4>Fly Me To The Moon</h4>
-                                                    <span>$21.00</span>
-                                                </div>
-                                            </td>
-                                            <td class="cart_quantity">
-                                                <div class="quantity">
-                                                    <div class="pro-qty">
-                                                        <span class="dec qtybtn">-</span>
-                                                        <input type="text" value="1">
-                                                        <span class="inc qtybtn">+</span>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="cart_price">$21.00</td>
-                                            <td class="cart_close"><i class="fa fa-times-circle"></i></td>
-                                        </tr>
-                                        <tr>
-                                            <td class="cart_item">
-                                                <div class="cart_item_pic">
-                                                    <img src="./public/images/cart-4.png" alt="cart-4">
-                                                </div>
-                                                <div class="cart_item_text">
-                                                    <h4>Fly Me To The Moon</h4>
-                                                    <span>$21.00</span>
-                                                </div>
-                                            </td>
-                                            <td class="cart_quantity">
-                                                <div class="quantity">
-                                                    <div class="pro-qty">
-                                                        <span class="dec qtybtn">-</span>
-                                                        <input type="text" value="1">
-                                                        <span class="inc qtybtn">+</span>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="cart_price">$21.00</td>
-                                            <td class="cart_close"><i class="fa fa-times-circle"></i></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="cart_btn">
-                                    <div class="row">
-                                        <div class="col-lg-4 col-md-5">
-                                            <div class="cart_btn_continue">
-                                                <a href="./product.html"><i class="fas fa-arrow-left"></i> Continute shopping</a>
+                    <div class="checkout_form">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="checkout_form_top">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <h4>Contact information</h4>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <h6>Already have an account? <a href="#">Login</a></h6>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8 col-md-7">
-                                            <div class="cart_btn_right">
-                                                <a href="#"><i class="fas fa-trash-alt"></i> Clear shopping cart</a>
-                                                <a href="#"><i class="fas fa-spinner"></i> Update cart</a>
+                                    </div>
+                                    <div class="input_top">
+                                        <input type="text" placeholder="Email or mobile phone number">
+                                        <label for="kp">
+                                            Keep me up to dateon news and exclusive offers
+                                            <input type="checkbox" id="kp">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="checkout_address">
+                                        <h4>Shipping address</h4>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="input_item">
+                                                    <p>First name<span>*</span></p>
+                                                    <input type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="input_item">
+                                                    <p>Last name<span>*</span></p>
+                                                    <input type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="input_item">
+                                                    <p>Contact<span>*</span></p>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="input_item double_input">
+                                                    <p>Address<span>*</span></p>
+                                                    <input type="text" placeholder="Steet address">
+                                                    <input type="text" placeholder="Apartment, suite, unite ect ( optinal )">
+                                                </div>
+                                                <div class="input_item">
+                                                    <p>Town/City<span>*</span></p>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="input_item">
+                                                    <p>Country/State<span>*</span></p>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="input_item">
+                                                    <p>Postcode/Zip<span>*</span></p>
+                                                    <input type="text">
+                                                </div>
+                                                <div class="input_item">
+                                                    <p>Oder note<span>*</span></p>
+                                                    <input type="text"
+                                                        placeholder="Note about your order, e.g, special noe for delivery">
+                                                </div>
+                                                <label for="sv">
+                                                    Save this infomation for next time
+                                                    <input type="checkbox" id="sv">
+                                                    <span class="checkmark"></span>
+                                                </label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col-lg-4">
+                                    <div class="checkout_proceed">
+                                        <div class="checkout_proceed_title">
+                                            <h4>Your order</h4>
+                                        </div>
+                                        <div class="checkout_proceed_coupon">
+                                            <p>Enter coupon code. It will be applied at checkout.</p>
+                                            <div class="coupon_input">
+                                                <input type="text" placeholder="Your code here">
+                                                <button type="submit">APPLY</button>
+                                            </div>
+                                        </div>
+                                        <div class="checkout_proceed_product">
+                                            <h5>Products</h5>
+                                            <ul>
+                                                <li>1x Succulent gym <span>$21.0</span></li>
+                                                <li>1x The affogato <span>$21.0</span></li>
+                                                <li>1x The dublin <span>$21.0</span></li>
+                                                <li>1x The green thumb <span>$21.0</span></li>
+                                            </ul>
+                                        </div>
+                                        <ul class="checkout_proceed_total">
+                                            <li>Subtotal <span>$217.00</span></li>
+                                            <li>Total <span>$217.00</span></li>
+                                        </ul>
+                                        <div class="checkout_proceed_widget">
+                                            <label for="cp">
+                                                Cheque payment
+                                                <input type="checkbox" id="cp">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label for="paypal">
+                                                PayPal
+                                                <input type="checkbox" id="paypal">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="site-btn">PROCEED TO CHECKOUT</button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="cart_coupon">
-                                <p>Enter coupon code. It will be applied at checkout.</p>
-                                <form action="#">
-                                    <input type="text" placeholder="Your code here">
-                                    <button type="submit">APPLY</button>
-                                </form>
-                            </div>
-                            <div class="cart_total">
-                                <h4>Cart Total</h4>
-                                <ul>
-                                    <li>Subtotal <span>$217.00</span></li>
-                                    <li>Total <span>$217.00</span></li>
-                                </ul>
-                                <a href="#">PROCEED TO CHECKOUT</a>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -221,7 +199,7 @@
 
             <!-- Instagram -->
             <section class="instagram">
-                <section class="container-fluid">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="instagram_post">
@@ -344,6 +322,7 @@
                     </div>
                 </div>
             </footer>
+
 
         </div>
     </div>
