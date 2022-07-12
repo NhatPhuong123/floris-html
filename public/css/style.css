@@ -79,7 +79,7 @@ ol {
     margin: 0
 }
 
-/* Header */
+/* Header Logo */
 .header_logo {
     padding: 26px 0 30px;
     left: 50px;
@@ -88,8 +88,8 @@ ol {
 .header_logo a {
     display: inline-block;
 }
-
-.header_menu {
+/* Header Menu */
+/* .header_menu {
     display: inline-block;
     margin-right: 65px
 }
@@ -133,10 +133,10 @@ ol {
 
 .header_menu ul li:last-child {
     margin-right: 0;
-}
+} */
 
 /*=== DROPDOWN MENU === */
-#primary-menu li {
+/* #primary-menu li {
     position: relative;
 }
 #primary-menu .submenu{
@@ -153,6 +153,80 @@ ol {
     padding: 5px 20px;
     text-transform: capitalize;
     top:10px;
+} */
+
+.header_menu {
+    display: inline-block;
+    margin-right: 65px;
+    margin-top: 30px;
+}
+
+.header_menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    position: relative
+}
+
+.header_menu ul li:hover a {
+    color: #f45d96;
+    text-decoration: none;
+}
+
+.header_menu ul li:hover .dropdown {
+    top: 30px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.header_menu ul li:last-child {
+    margin-right: 0
+}
+
+.header_menu ul li .dropdown {
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 150px;
+    background: #111;
+    text-align: left;
+    padding: 5px 0;
+    z-index: 9;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all, .3s;
+    -o-transition: all, .3s;
+    transition: all, .3s
+}
+
+.header_menu ul li .dropdown li {
+    display: block;
+    margin-right: 0
+}
+
+.header_menu ul li .dropdown li a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    padding: 5px 20px;
+    text-transform: capitalize
+}
+
+.header_menu ul li .dropdown li a:after {
+    display: none
+}
+
+.header_menu ul li a {
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    color: #111;
+    display: block;
+    font-weight: 500;
+    padding: 3px 0;
+    text-transform: uppercase;
+    -webkit-transition: all, .3s;
+    -o-transition: all, .3s;
+    transition: all, .3s
 }
 
 /* header_option search, heart, shopping cart */
@@ -1485,7 +1559,8 @@ ol {
 }
 
 .product_details_pic_item {
-    width: calc(83% - 20px);
+    /* width: calc(83% - 20px); */
+    width: 100%;
     float: left;
     margin-right: 20px;
     height: 720px
@@ -1700,12 +1775,6 @@ ol {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     padding: 0
-}
-
-.product_details_desc .nav-link.active {
-    color: #111;
-    background-color: transparent3;
-    border-color: transparent
 }
 
 .product_details_desc .tab-content p {

@@ -8,9 +8,17 @@
 }
 
 body {
-    background-image: url('https://e.khoahoc.tv/photos/image/2019/09/16/hoang-hon-mau-tim.jpg');
+    /* background-image: url("../images/tu-cau.jpg"); */
     background-size: 100vw;
     background-repeat: no-repeat;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 form {
@@ -30,7 +38,7 @@ form {
 
 form * {
     font-family: 'Poppins', sans-serif;
-    color: #9932CC;
+    color: #fff;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
@@ -41,6 +49,7 @@ form h3 {
     font-weight: 500;
     line-height: 42px;
     text-align: center;
+    color: #BCE954;
 }
 
 label {
@@ -66,16 +75,22 @@ input {
     color: #e5e5e5;
 }
 
-button {
+.sub-btn {
     margin-top: 50px;
     width: 100%;
-    background-color: #EE82EE;
+    background-color: #BCE954;
     color: #080710;
     padding: 15px 0;
     font-size: 18px;
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.sub-btn:hover {
+    background-color: rgba(255, 255, 255, 0.47);
+    text-decoration: none;
 }
 
 .check {
@@ -88,13 +103,21 @@ button {
     width: 200px;
     border-radius: 3px;
     padding: 5px 10px 10px 5px;
-    background-color: rgba(255, 255, 255, 0.27);
-    color: #9932CC;
+    /* background-color: rgba(255, 255, 255, 0.27); */
+    background-color: #BCE954;
+    color: #080710;
     text-align: center;
+    text-decoration: none;
 }
 
 .check div:hover {
     background-color: rgba(255, 255, 255, 0.47);
+    text-decoration: none;
+}
+
+.check .go a{
+    text-decoration: none;
+    color: #080710;
 }
 
 .check .fb {

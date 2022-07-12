@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="./public/css/login.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
 </head>
+
 <body>
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="../floris-html/public/video/Rain-6847.mp4" type="video/mp4">
+    </video>
+
     <form>
         <h3>Login Here</h3>
 
@@ -15,11 +26,12 @@
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password" minlength=8>
 
-        <button>Log In</button>
+        <input type="submit" name="login" value="Login" class="sub-btn">
         <div class="check">
-          <div class="go">Register</div>
-          <div class="fb">Forgot Password</div>
+            <div class="go"><a href="./register.html">Register</a></div>
+            <div class="fb">Forgot Password?</div>
         </div>
     </form>
 </body>
+
 </html>
