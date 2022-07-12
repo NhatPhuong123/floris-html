@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./public/css/register.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+        " type="text/css" />
+
+</head>
+
+<body>
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="../floris-html/public/video/Rain-6847.mp4" type="video/mp4">
+    </video>
+
+    <form>
+        <h3>Register</h3>
+        <div class="register_fields">
+            <div class="register_fields_user">
+                <div class="icon">
+                    <!-- <i class="fas fa-user"></i> -->
+                    <input type="text" placeholder="Username" id="username" name="username" required>
+                </div>
+            </div>
+            <div class="register_fields_email">
+                <div class="icon">
+                    <!-- <i class="fas fa-envelope"></i> -->
+                    <input type="email" placeholder="Email" name="email" id="email">
+                </div>
+            </div>
+            <div class="register_fields_password">
+                <div class="icon">
+                    <!-- <i class="fas fa-lock"></i> -->
+                    <input type="password" placeholder="Password" id="password" minlength=8 name="password">
+                </div>
+            </div>
+            <div class="register_fields_repass">
+                <div class="icon">
+                    <!-- <i class="fas fa-lock"></i> -->
+                    <input type="password" placeholder="Re-type Password" name="repass" id="repass">
+                </div>
+            </div>
+        </div>
+        <input type="submit" name="register" value="Register" class="sub-btn">
+
+        <p>Have already an account? <a href="./login.html">Login here</a></p>
+
+    </form>
+</body>
+
+</html>
